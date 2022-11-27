@@ -1,0 +1,179 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.bgHeader{
+	background-color: #00796B;
+	width: 100%;
+	height: 38px;
+}
+
+.bgBody{
+	background-color: #008374;
+	width: 100%;
+	height: 550px;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.clearDiv{
+	clear: both;
+}
+
+.leftContact{
+	width: 50%;
+	padding: 10px 0px;
+}
+
+.fa-phone{
+	padding-left: 30px;
+}
+
+.leftContact a{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.leftContact a:hover{
+	color: #F85A40;
+	transition: all 0.3s ease;
+}
+
+.rightContact a:hover{
+	color: #F85A40;
+	transition: all 0.3s ease;
+}
+
+.rightContact{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 0px;
+}
+
+.rightContact a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.rightContact .fa-facebook, .fa-twitter, .fa-linkedin{
+	padding: 0px 10px;
+}
+
+.rightContact .fa-instagram{
+	padding-left: 10px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px;
+}
+
+.main nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 50px;
+}
+
+.main nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.main nav ul li a:hover{
+	border-bottom: 3px solid #ffffff;
+	padding-bottom: 7px;
+	transition: all 0.3s ease;
+}
+
+.main .logo{
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.main .logo:hover{
+	color: #F85A40;
+	transition: all 0.3s ease;;
+}
+
+.middleContent{
+	width: 40%;
+	margin-top: 105px;
+}
+
+.middleContent h1{
+	color: #ffffff;
+	font-size: 40px;
+}
+
+.middleContent p{
+	color: #8EC7C1;
+	padding-top: 30px;
+	font-weight: bold;
+}
+
+.middleContent .buttons{
+	padding-top: 25px;
+}
+
+.buttons .gsb{
+	background-color: #1A9082;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px 25px;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.buttons .gsb:hover{
+	color: #F85A40;
+	transition: all 0.3s ease;
+}
+
+.buttons .wvb{
+	margin-left: 20px;
+	background-color: #008374;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 10px 25px;
+	border: none;
+	cursor: pointer;
+}
+
+.buttons .wvb:hover{
+	color: #F85A40;
+	transition: all 0.3s ease;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.cards .card1, .card2, .card3, .card4{
+	font-size: 25px;
+	font-weight: bolder;
+	background-color: #008374;
+	padding: 60px 86px;
+	color: #ffffff;
+	border-radius: 5px;
+	margin-top: -100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards .fa-star-exclamation, .fa-lock, .fa-location-dot, .fa-gem, .fa-tv{
+	padding-bottom: 15px;
+}
+
